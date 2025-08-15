@@ -1,7 +1,5 @@
 node_modules/
-build/
-dist/
+package-lock.json
 .env
 .DS_Store
 *.local
-package-lock.json
