@@ -11,17 +11,6 @@ import RegisterPage from './pages/RegisterPage';
 import OrdersPage from './pages/OrdersPage';
 import ContactPage from './pages/ContactPage';
 
-const theme = extendTheme({
-  direction: 'rtl',
-  fonts: {
-    heading: 'Cairo, sans-serif',
-    body: 'Cairo, sans-serif',
-  },
-  config: {
-    initialColorMode: 'light',
-    useSystemColorMode: false,
-  },
-});
 
 import Navbar from './components/Navbar';
 
