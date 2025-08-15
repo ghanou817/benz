@@ -39,7 +39,7 @@ function Navbar() {
     <Box bg="white" boxShadow="md" py={3} px={6} mb={6}>
       <Flex align="center" direction="row-reverse">
         <Box fontWeight="bold" fontSize="2xl" color="teal.500">
-          بنزارة شوب
+          benzshop
         </Box>
         <Spacer />
         <Flex gap={4}>
@@ -64,7 +64,10 @@ function Navbar() {
             <Badge colorScheme="red" borderRadius="full" position="absolute" top={0} right={0} fontSize="0.8em">{notifCount}</Badge>
           )}
         </Box>
-        <Button as={RouterLink} to="/login" colorScheme="teal" variant="outline" ml={4}>
+        <Button as={RouterLink} to="/register" colorScheme="teal" variant="solid" ml={2}>
+          إنشاء حساب جديد
+        </Button>
+        <Button as={RouterLink} to="/login" colorScheme="teal" variant="outline" ml={2}>
           دخول
         </Button>
       </Flex>
