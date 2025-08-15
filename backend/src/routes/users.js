@@ -33,8 +33,6 @@ router.post('/register', async (req, res) => {
 
 // تسجيل الدخول
 import jwt from 'jsonwebtoken';
-import pool from '../utils/db.js';
-import bcrypt from 'bcrypt';
 
 router.post('/login', async (req, res) => {
   try {
